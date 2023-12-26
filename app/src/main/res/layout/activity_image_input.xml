@@ -79,7 +79,7 @@
                     android:text="网络图片"
                     android:textSize="@dimen/sp_16"
                     android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
-                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:backgroundTint="#FF88C68B"
                     app:cornerRadius="@dimen/dp_12"
                     app:iconGravity="textStart"
                     app:iconSize="@dimen/dp_24" />
@@ -98,7 +98,7 @@
                     android:text="相册图片"
                     android:textSize="@dimen/sp_16"
                     android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
-                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:backgroundTint="#FF88C68B"
                     app:cornerRadius="@dimen/dp_12"
                     app:iconGravity="textStart"
                     app:iconSize="@dimen/dp_24" />
@@ -116,7 +116,7 @@
                     android:text="拍照图片"
                     android:textSize="@dimen/sp_16"
                     android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
-                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:backgroundTint="#FF88C68B"
                     app:cornerRadius="@dimen/dp_12"
                     app:iconGravity="textStart"
                     app:iconSize="@dimen/dp_24" />

@@ -21,7 +21,7 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:collapsedTitleGravity="center_horizontal"
-            app:contentScrim="@color/colorPrimaryDark"
+            app:contentScrim="#88C68B"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:title="垃圾分类"
             app:toolbarId="@+id/toolbar">
@@ -63,15 +63,17 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_72"
+                android:layout_height="187dp"
                 android:background="@color/white"
                 android:gravity="center"
                 android:orientation="horizontal">
                 <!--文字输入-->
+                <!--声音输入-->
+                <!--图像输入-->
                 <com.google.android.material.button.MaterialButton
                     style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="@dimen/dp_50"
+                    android:layout_height="97dp"
                     android:gravity="center"
                     android:insetTop="@dimen/dp_0"
                     android:insetBottom="@dimen/dp_0"
@@ -79,16 +81,16 @@
                     android:text="文字"
                     android:textSize="@dimen/sp_16"
                     android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
-                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:backgroundTint="#FF88C68B"
                     app:cornerRadius="@dimen/dp_12"
                     app:icon="@mipmap/icon_text_input"
                     app:iconGravity="textStart"
                     app:iconSize="@dimen/dp_24" />
-                <!--声音输入-->
+
                 <com.google.android.material.button.MaterialButton
                     style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="@dimen/dp_50"
+                    android:layout_height="97dp"
                     android:layout_marginStart="@dimen/dp_16"
                     android:layout_marginEnd="@dimen/dp_16"
                     android:gravity="center"
@@ -98,16 +100,16 @@
                     android:text="语音"
                     android:textSize="@dimen/sp_16"
                     android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
-                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:backgroundTint="#FF88C68B"
                     app:cornerRadius="@dimen/dp_12"
                     app:icon="@mipmap/icon_voice_input"
                     app:iconGravity="textStart"
                     app:iconSize="@dimen/dp_24" />
-                <!--图像输入-->
+
                 <com.google.android.material.button.MaterialButton
                     style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="@dimen/dp_50"
+                    android:layout_height="97dp"
                     android:gravity="center"
                     android:insetTop="@dimen/dp_0"
                     android:insetBottom="@dimen/dp_0"
@@ -115,7 +117,7 @@
                     android:text="图像"
                     android:textSize="@dimen/sp_16"
                     android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
-                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:backgroundTint="#FF88C68B"
                     app:cornerRadius="@dimen/dp_12"
                     app:icon="@mipmap/icon_image_input"
                     app:iconGravity="textStart"
